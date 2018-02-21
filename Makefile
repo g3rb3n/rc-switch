@@ -17,3 +17,9 @@ RCSwitch.cpp:
 
 clean:
 	$(RM) *.o RCSend RCSnif
+
+install:
+	chmod +x RCSend
+	chmod +x RCSnif
+	cp RCSend /usr/bin/
+	cp RCSnif /usr/bin/
